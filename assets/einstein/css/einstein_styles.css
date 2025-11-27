@@ -1,0 +1,178 @@
+@charset "UTF-8";
+/* CSS Document */
+nav.horizontal ul {
+	text-align: center;
+	clear: both;
+	word-spacing: 50px;
+	background-color: hsla(0,0%,50%,0.5);
+}
+
+nav.horizontal ul li {
+    display: inline-block;
+	color: #FFFFFF;
+}
+
+nav.horizontal ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+header {
+	height: 150px;
+}
+
+body {
+	color: black;
+	background-image: url("../images/pexels-philippe-donn-1169754.jpg");
+	background-size: cover;
+	background-size: contain;
+	font-family: 'Century Gothic', Arial, sans-serif;
+}
+
+button {
+	background-color: rgba(0,90,150,0.8);
+	color: white;
+	border: 1px solid gray;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+img.logo {
+	float: left;
+	width: 150px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+img.crosssection {
+	float: right;
+	padding: 10px;
+	width: 20%;
+}
+
+img.pulsar {
+	float: right;
+	padding: 10px;
+	width: 20%;
+}
+
+img.telescope {
+	float: right;
+	padding: 10px;
+	width: 20%;
+}
+
+img.skymap {
+	float: right;
+	padding: 10px;
+	width: 20%;
+}
+
+img.user {
+	float: left;
+	width: 100px;
+	padding: 5px;
+}
+
+img.graph {
+	width: 450px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+article {
+	background-color: #FFFFFF;
+	border: 2px solid gray;
+	border-radius: 20px;
+	float: left;
+	width: 50%;
+	padding: 40px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-right: 5px;
+	margin-left: 25px;
+}
+
+article.interior {
+	float: none;
+	width: 92%;
+	margin: 20px auto;
+}
+
+aside {
+	background-color: #FFFFFF;
+	border: 2px solid gray;
+	border-radius: 20px;
+	float: right;
+	width: 30%;
+	padding: 40px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 5px;
+	margin-right: 25px;
+}
+
+footer {
+	color: white;
+	text-align: center;
+	clear: both;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #FFFFFF;
+  color: #707070;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #FFFFFF;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #707070;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #FFFFFF;
+}
+
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #707070;
+  padding: 20px; 
+  width: 200px;
+  height: 150px; 
+}
+

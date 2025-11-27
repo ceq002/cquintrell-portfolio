@@ -68,3 +68,8 @@ img {
 model-viewer {
     width: 100%;
 }
+
+iframe.site {
+    width: 100%;
+    display: block;
+}

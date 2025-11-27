@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="keywords"
+    content="bermuda, travel, cruise, atlantic ocean, travel guide"/>
+<link href="styles.css" rel="stylesheet"/>
+<link rel="stylesheet" href="https://use.typekit.net/xui2jhd.css">
+<link rel="stylesheet" href="https://use.typekit.net/gee3fkz.css">
+<title>Beautiful Bermuda</title>
+    </head>
+
+<body class="home">
+    <header>
+    <a href="index.html" class="title">BEAUTIFUL BERMUDA</a>
+        <nav class="horizontal">
+        <ul>
+            <li><a href="history%20culture.html">HISTORY &amp; CULTURE</a></li>
+            <li><a href="destinations.html">TOURIST DESTINATIONS</a></li>
+            <li><a href="conservation.html">CONSERVATION</a></li>
+            </ul>
+        </nav>
+    </header>
+<div class="index">
+<img src="imgs/Flag_of_Bermuda.svg.png" alt="The flag of Bermuda" class="flag">
+	
+<article class="slideshow-container">	
+<h1>Quick Facts</h1>
+	<div class="mySlides fade">
+		<div class="numbertext">1 / 4</div>
+	<strong>Where is Bermuda?</strong>
+		<br>
+		<p>Bermuda is a British territory located in the western Atlantic Ocean. The closest land is North Carolina, about 1,035 kilometers (643 miles) to the west-northwest.</p>	
+	</div>
+	<div class="mySlides fade">
+		<div class="numbertext">2 / 4</div>
+	<strong>How many people live in Bermuda?</strong>
+	<br>
+	<p>As of the 2019 census, about 64,000 people live in the country. The population is mostly Black (52% of the population). Other racial makeups include White (31%), multiracial (9%), Asian (4%), and other races (4%). Seventy percent of Bermudians are native-born.</p>
+	</div>
+	<div class="mySlides fade">
+		<div class="numbertext">3 / 4</div>
+	<strong>When was Bermuda discovered?</strong>
+	<br>
+	<p>Bermuda was discovered in the 1500s by Spanish explorer Juan de Bermúdez, after whom it is named. It was officially colonized by the British in 1607.</p>
+	</div>
+	<div class="mySlides fade">
+		<div class="numbertext">4 / 4</div>
+	<strong>What is Bermuda’s economic status?</strong>
+	<br>
+	<p>Bermuda is one of the richest countries per capita in the world, ranking just fourth in its GDP per capita (US $117,097)</p>
+	</div>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+	<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+	  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+	</article>	
+	</div>	
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+    </body>
+</html>
