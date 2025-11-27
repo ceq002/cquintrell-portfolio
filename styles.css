@@ -37,6 +37,10 @@ h1 {
     text-shadow: 0 0 10px rgb(45,165,255);
     text-align: center;
 }
+h1.seraph {
+    color: white;
+    text-shadow: 0 0 10px rgb(45,165,255);
+}
 h2 {
     font-family: "Neuropol", sans-serif;
     color: white;
