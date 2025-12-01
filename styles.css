@@ -14,12 +14,15 @@ body {
 footer {
     font-family: "century gothic", sans-serif;
     color: white;
+    position: fixed;
+    bottom: 0;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    clear: both;
 }
 
 a {
@@ -62,6 +65,13 @@ img.logo {
     padding-top: 20px;
 }
 
+img.menu-front {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 img {
     width: 90%;
     padding-left: 5%;
@@ -76,10 +86,19 @@ iframe.video {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    clear: both;
+    width: 60%;
+    aspect-ratio: 16/9;
 }
 
 iframe.site {
     width: 100%;
     height: 550px;
     display: block;
+}
+
+.carousel-inner {
+    padding-bottom: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
