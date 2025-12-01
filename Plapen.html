@@ -1,26 +1,114 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Planetary Pendragon</title>
-        <link rel="stylesheet" href="styles.css">
-        <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+        <link rel="stylesheet" href="styles.css" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script
+            type="module"
+            src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
         <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-Z6WVBRJ1RC');
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+            gtag("config", "G-Z6WVBRJ1RC");
         </script>
+        <style>
+            a.button {
+                text-decoration: none;
+                color: white;
+            }
+        </style>
     </head>
     <body>
-        <a href="index.html">    
-            <img src="assets/cq-logo.png" alt="A stylized CQ logo, with the Q inside of the C" class="logo">
+        <a href="index.html">
+            <img src="assets/cq-logo.png" alt="A stylized CQ logo, with the Q inside of the C" class="logo" />
         </a>
         <a href="Design-projects.html" class="button">&#8592; Back</a>
-        <h1>Planetary Pendragon</h1>
-        <model-viewer alt="The Caliburn-class battleship, a starship shaped like a sword" src="assets/Models/exc.glb" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
-        <model-viewer alt="The Rhongomynias class cruiser, a starship shaped like a spear" src="assets/Models/rhongo.glb" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
-        <model-viewer alt="The Carnwennan-class starfighter, a starship shaped like a dagger" src="assets/Models/carn.glb" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
-        <p>Planetary Pendragon (also known as “PlaPen”) is an unpublished military-political science fiction and fantasy graphic novel trilogy. It is set in the 23rd century where humankind is united under a kingdom and has expanded to encompass two solar systems, all protected by the Kingdom’s official military, the Avalon Interstellar Knighthood. This extensive project involves several different forms of design, such as concept art, storyboarding, and 3D modeling. The three starships shown here are, top to bottom: Caliburn class battleship (named after King Arthur’s sword Excalibur), Rhongomyniad class cruiser (named for Arthur’s spear), and Carnwennan class starfighter (named for Arthur’s dagger).</p>
+        <h1 class="seraph">Planetary Pendragon</h1>
+        <p>
+            Planetary Pendragon (also known as “PlaPen”) is an unpublished military-political science fiction and
+            fantasy graphic novel trilogy. It is set in the 23rd century where humankind is united under a kingdom and
+            has expanded to encompass two solar systems, all protected by the Kingdom’s official military, the Avalon
+            Interstellar Knighthood. This extensive project involves several different forms of design, such as concept
+            art, storyboarding, and 3D modeling. The three starships shown here are, top to bottom: Caliburn class
+            battleship (named after King Arthur’s sword Excalibur), Rhongomyniad class cruiser (named for Arthur’s
+            spear), and Carnwennan class starfighter (named for Arthur’s dagger).
+        </p>
+        <model-viewer
+            alt="The Caliburn-class battleship, a starship shaped like a sword"
+            src="assets/Models/exc.glb"
+            shadow-intensity="1"
+            camera-controls
+            touch-action="pan-y"></model-viewer>
+        <model-viewer
+            alt="The Rhongomyniad class cruiser, a starship shaped like a spear"
+            src="assets/Models/rhongo.glb"
+            shadow-intensity="1"
+            camera-controls
+            touch-action="pan-y"></model-viewer>
+        <model-viewer
+            alt="The Carnwennan-class starfighter, a starship shaped like a dagger"
+            src="assets/Models/carn.glb"
+            shadow-intensity="1"
+            camera-controls
+            touch-action="pan-y"></model-viewer>
+        <div id="demo" class="carousel slide" data-bs-ride="carousel" style="width: 50%; margin: auto">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/kole.png" alt="Kole Braxton, an original character" class="d-block w-100" />
+                </div>
+                <div class="carousel-item">
+                    <img
+                        src="assets/Untitled_Artwork.png"
+                        alt="Garth Corbyn, an original character"
+                        class="d-block w-100" />
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/themba.png" alt="Themba Maphumulo, an original character" class="d-block w-100" />
+                </div>
+                <div class="carousel-item">
+                    <img
+                        src="assets/morgan.png"
+                        alt="Morgan Fay Thatcher, an original character"
+                        class="d-block w-100" />
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/knighthood_flag.png" alt="The flag of the Knighthood" class="d-block w-100" />
+                </div>
+                <div class="carousel-item">
+                    <img
+                        src="assets/RC_flag-01.png"
+                        alt="the flag of the Reclamation Coalition"
+                        class="d-block w-100" />
+                </div>
+                <div class="carousel-item">
+                    <img
+                        src="assets/knighthood_1.png"
+                        alt="a map of the Knighthood's territory"
+                        class="d-block w-100" />
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
     </body>
 </html>
