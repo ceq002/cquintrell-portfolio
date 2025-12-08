@@ -26,10 +26,29 @@ body {
 }
 
 footer {
+    padding-left: 20px;
     font-family: "century gothic", sans-serif;
     color: white;
     position: fixed;
     bottom: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+
+
+footer div {
+    flex-grow: 1;
+    padding-left: 20px;
+}
+footer a {
+    display: block;
+    flex: 150px 0 0;
+}
+footer img {
+    display: block;
+    width: 100%;
 }
 
 ul {
@@ -96,9 +115,6 @@ img.logo {
     padding-top: 10px;
 }
 img.noai {
-    float: left;
-    width: 10%;
-    padding-left: 20px;
     padding-right: 20px;
 }
 
