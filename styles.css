@@ -36,8 +36,6 @@ footer {
     align-items: flex-end;
 }
 
-
-
 footer div {
     flex-grow: 1;
     padding-left: 20px;
@@ -49,6 +47,11 @@ footer a {
 footer img {
     display: block;
     width: 100%;
+}
+
+footer > a:hover {
+    box-shadow: none;
+    background-color: transparent;
 }
 
 ul {
